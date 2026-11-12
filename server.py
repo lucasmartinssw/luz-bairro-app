@@ -18,7 +18,7 @@ from fatura import calcular_fatura
 
 VERSAO = os.environ.get("APP_VERSION", "dev")
 AMBIENTE = os.environ.get("APP_ENV", "local")
-MENSAGEM = os.environ.get("APP_MESSAGE", "Portal Luz do Bairro")
+MENSAGEM = os.environ.get("APP_MESSAGE", "Portal Luz do Bairro v2.0")
 PORTA = int(os.environ.get("PORT", "8080"))
 
 
